@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "test": "cross-env NODE_ENV=test mocha ./test/*",
-    "prepare": "husky install"
+    "prepare": "husky install", 
+    "lint":"yarn exec eslint ./pages/**/* ./src/**/* ./test/**/*"
   },
   "dependencies": {
     "next": "latest",
