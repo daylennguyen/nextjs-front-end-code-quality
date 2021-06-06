@@ -14,17 +14,20 @@
     "react-dom": "17.x"
   },
   "devDependencies": {
-    "chai": "^4.3.4",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.6",
-    "mocha": "^8.4.0",
-    "sinon": "^11.1.1",
-    "istanbul": "^0.4.5",
-    "eslint": "^7.24.0",
-    "eslint-config-next": "latest",
     "@babel/core": "^7.0.1",
     "@babel/register": "^7.0.0",
+    "autoprefixer": "^10.2.6",
+    "chai": "^4.3.4",
     "cross-env": "7.0.2",
-    "expect.js": "^0.3.1"
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "eslint": "^7.24.0",
+    "eslint-config-next": "latest",
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^8.4.0",
+    "postcss": "^8.3.0",
+    "sinon": "^11.1.1",
+    "tailwindcss": "^2.1.4"
   }
 }

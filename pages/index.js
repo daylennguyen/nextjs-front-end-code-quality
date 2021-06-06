@@ -8,14 +8,14 @@ export function Homee() {
           color: red;
         }
       `}</style>
-      <p>Hello World!</p>
+      <p className="bg-purple-600 bg-opacity-50"> Hello World!</p>
     </div>
   )
 }
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-red-600 text-lg	">
       <Homee />
     </div>
   )
